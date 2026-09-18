@@ -147,6 +147,14 @@
   .news-fb-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-size: 0.9rem; font-weight: 700; color: var(--accent); text-decoration: none; }
   .news-fb-link:hover { text-decoration: underline; }
 
+  .news-card .times-wrap { overflow-x: auto; margin-top: 16px; }
+  .news-card table.times { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  .news-card table.times th, .news-card table.times td { text-align: center; padding: 8px 6px; font-size: 0.92rem; border-bottom: 1px solid var(--line); }
+  .news-card table.times th:first-child, .news-card table.times td:first-child { text-align: start; color: var(--text-muted); font-weight: 400; }
+  .news-card table.times th { color: var(--text-muted); font-weight: 700; font-size: 0.8rem; }
+  .news-card table.times tr:last-child td { border-bottom: none; }
+  .news-card table.times td.time { font-weight: 700; color: var(--accent); }
+
   footer { padding: 34px 0 50px; text-align: center; color: var(--text-muted); font-size: 0.88rem; border-top: 1px solid var(--line); margin-top: 20px; }
   footer .foot-links { margin-top: 10px; display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; }
   footer a { color: var(--text-muted); text-decoration: none; }
@@ -199,6 +207,26 @@
   </div>
 
   <div class="news-feed">
+
+    <div class="news-card cat-event">
+      <div class="news-head">
+        <span class="news-tag event"><svg class="news-icon" viewBox="0 0 28 28"><path d="M5,23 Q10,17 13,10" fill="none" stroke="var(--accent-warm)" stroke-width="1.8" stroke-linecap="round"/><path d="M13,10 C16,7.5 19.5,8.5 19,12 C18.5,15 15,15.3 12.5,12.8 C11.7,12 11.7,10.8 13,10 Z" fill="var(--accent-warm)"/></svg>אירוע קרוב</span>
+        <span class="news-date">18.9.2026</span>
+      </div>
+      <h3>שבת שובה תשפ"ז: לוח זמנים ודרשה מיוחדת מהרב איתן</h3>
+      <p>כבכל שבת, התפילות מתקיימות בגינת בית הכנסת. בשבת זו — שבת שובה, פרשת האזינו — הרב איתן פיזון יישא את דרשת שבת שובה לאחר הקידוש.</p>
+      <div class="times-wrap"><table class="times">
+        <tr><th>תפילה</th><th>שעה</th></tr>
+        <tr><td>מנחה, ערב שבת</td><td class="time">18:30</td></tr>
+        <tr><td>שחרית</td><td class="time">8:45</td></tr>
+        <tr><td>קידוש</td><td class="time">10:30</td></tr>
+        <tr><td>דרשת שבת שובה מפי הרב איתן</td><td class="time">11:00</td></tr>
+        <tr><td>מנחה</td><td class="time">18:05</td></tr>
+        <tr><td>שיעור הרב איתן</td><td class="time">18:20</td></tr>
+        <tr><td>ערבית</td><td class="time">19:16</td></tr>
+      </table></div>
+      <p style="margin-top:14px;">שבת שלום ומבורכת! 🤍</p>
+    </div>
 
     <div class="news-card cat-event">
       <div class="news-head">
